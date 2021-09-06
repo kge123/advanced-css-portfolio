@@ -15,22 +15,26 @@
     <!-- Nav Bar with links -->
     <nav>
         <!-- About Me / Work / Contact links / Resume -->
-        <a href="#about">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contactme">Contact Me</a>
-        <a href="#">Resume</a>
+        <ul>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contactme">Contact Me</a>
+            <a href="#">Resume</a>
+        </ul>
     </nav>
 </header>
 
 <!-- Banner with text -->
 <section class="banner">
     <div>
-        <h2>Cool Subtitle Here</h2>
+        <h2>Welcome to my Portfolio</h2>
     </div>
 </section>
 
 <!-- Main content container with About Me, Work, Contact Me -->
-<section class="maincontainer">
+<!-- Created main section to separate section above -->
+<main>
+    <section class="maincontainer">
     <!-- About Me container -->
    <div id="about" class="section">
        <h2>About Me</h2>
@@ -41,22 +45,58 @@
    </div>
 
     <!-- Work container -->
-    <div id="work" class="section">
+    <!-- Add images -->
+    <div id="work" class="workprojects">
         <h2>Work</h2>
         <div>
-            <a href="#" class="item projectOne">
+            <a href="#" class="portfolioprojectsbig">
+                <img src="./images/Project 1 Stock Photo.jpg" alt="Project1">
                 <div>
-                    <h3>title</h3>
+                    <h3>Project1</h3>
+                </div>
+            </a>
+            <a href="#" class="portfolioprojects">
+                <img src="./images/Project 2 Stock Photo.jpg" alt="Project2">
+                <div>
+                    <h3>Project2</h3>
+                </div>
+            </a>
+            <a href="#" class="portfolioprojects">
+                <img src="./images/Project 3 Stock Photo.jpg" alt="Project3">
+                <div>
+                    <h3>Project3</h3>
+                </div>
+            </a>
+            <a href="#" class="portfolioprojects">
+                <img src="./images/Project 4 Stock Photo.jpg" alt="Project4">
+                <div>
+                    <h3>Project4</h3>
+                </div>
+            </a>
+            <a href="#" class="portfolioprojects">
+                <img src="./images/Project 5 Stock Photo.jpg" alt="Project5">
+                <div>
+                    <h3>Project5</h3>
+                </div>
+            </a>
+            <a href="#" class="portfolioprojects">
+                <img src="./images/Project 6 Stock Photo.jpg" alt="Project6">
+                <div>
+                    <h3>Project6</h3>
                 </div>
             </a>
         </div>
     </div>
-        
-            
-    <!-- Contact Me container -->
-
-</section>
-
-    
+    <!-- Move contact me container into main -->
+    <div id="contactme" class="section">
+        <h2>Contact Me</h2>
+            <div>
+                <p>727-773-7500</p>
+                <p>kgelmorejr@gmail.com</p>
+            </div>
+    </div>
+</main>       
+ <!-- Contact Me container -->
 </body>
+
 </html>

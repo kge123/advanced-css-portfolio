@@ -1,1 +1,71 @@
 /* style from the top of the html to the bottom. */
+/* Adjusting Header and Nav ul */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    align-items: center;
+    font-size: 300%;
+    background: crimson;
+    color: ivory;
+
+}
+nav ul {
+    display: flexbox;
+    justify-content: baseline;
+    margin-bottom: 1%;
+    min-width: 200px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    font-size: 250%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section h2 {
+    display: flex;
+    justify-content: left;
+}
+div h2 div p {
+    display: flex;
+    justify-content: right;
+}
+
+div h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.workprojects {
+    flex: 1;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.portfolioprojectsbig {
+}
+
+.portfolioprojects {
+    border-style: hidden;
+    border-width: 5px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 200px;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+    
+}
