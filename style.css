@@ -1,5 +1,10 @@
 /* style from the top of the html to the bottom. */
 /* Adjusting Header and Nav ul */
+
+html {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flexbox;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -8,7 +13,6 @@ header {
     font-size: 300%;
     background: crimson;
     color: ivory;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 nav ul {
@@ -26,7 +30,7 @@ section h2 {
 }
 
 main {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -41,17 +45,21 @@ div h3 {
 }
 
 .workprojects {
+    align-items: center;
     flex: 1;
     padding: 100px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.portfolioprojectsbig {
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .portfolioprojects {
-    border-style: hidden;
+    border-style:groove;
+    border-color: crimson;
     border-width: 5px;
     border-radius: 50px;
     padding: 10px;
@@ -59,14 +67,18 @@ div h3 {
 }
 
 .contactMeme {
+    font-size: 150%;
+    color: ivory;
     background: crimson;
 }
 
 /*Added github link, trying to appear similar to example*/
+/*figure out how to get info to align in a row as opposed to column*/
 h4 {
     display: flex;
-    align-items:stretch;
-    justify-content: space-between;
+    justify-content: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
 }
 
 @media screen and (max-width: 620px) {
