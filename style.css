@@ -8,6 +8,7 @@ header {
     font-size: 300%;
     background: crimson;
     color: ivory;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 nav ul {
@@ -25,17 +26,13 @@ section h2 {
 }
 
 main {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
 }
 
 main section h2 {
     display: flex;
     justify-content: left;
-}
-div h2 div p {
-    display: flex;
-    justify-content: right;
 }
 
 div h3 {
@@ -48,7 +45,6 @@ div h3 {
     padding: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .portfolioprojectsbig {
@@ -62,7 +58,18 @@ div h3 {
     flex: 0 0 200px;
 }
 
-@media screen and (max-width: 768px) {
+.contactMeme {
+    background: crimson;
+}
+
+/*Added github link, trying to appear similar to example*/
+h4 {
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 620px) {
     main,
     nav {
         flex-direction: column;
