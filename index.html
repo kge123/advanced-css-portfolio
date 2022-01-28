@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Guy's Portfolio</title>
 </head>
-<body>
-<!-- Header/Nav Bar -->
+
 <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Guy Elmore</a><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/kge123">GitHub</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/kevin-elmore-jr-731ba322a/">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <!-- Need Logo/Name -->
-    <h1>Guy Elmore</h1>
+    <!-- <h1>Guy Elmore</h1> -->
     <!-- Nav Bar with links -->
-    <nav>
+    <!-- <nav> -->
         <!-- About Me / Work / Contact links / Resume -->
-        <ul>
+        <!-- <ul>
             <a href="#about">About Me</a>
             <a href="#work">Work</a>
             <a href="#contactme">Contact Me</a>
         </ul>
-    </nav>
+    </nav> -->
 </header>
+
+<body>
+
 
 <!-- Banner with text -->
 <section class="banner">
@@ -38,68 +56,85 @@
    <div id="about" class="section">
        <h2>About Me</h2>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptas voluptate iste quos deleniti officiis, in recusandae cupiditate laboriosam repudiandae quia numquam eveniet fugit quasi. Possimus inventore saepe molestiae eveniet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ab quis architecto magni modi blanditiis quia nulla odit? Provident ratione repudiandae aliquid voluptatem ab veritatis molestias quos neque modi quidem, quasi itaque eum harum nisi necessitatibus expedita eos corrupti id veniam dolorum esse optio. Illum ipsam eum iusto nulla odit minima modi minus reiciendis error, eveniet consectetur inventore veritatis aliquam nisi molestiae, dolores magnam unde, perferendis eius animi! Atque sint odit veniam. Amet, ullam. Ab explicabo minima earum autem. Corrupti id necessitatibus asperiores amet aut explicabo modi reiciendis, itaque voluptatem quia dignissimos exercitationem, porro nemo sint. Rem totam laboriosam necessitatibus.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi at quis aperiam autem ut sapiente. Nesciunt eveniet impedit animi architecto quibusdam possimus. Dolore placeat minus tenetur quas, eligendi ea labore?</p>
+            <p>My name is Guy Elmore and I am currently a student for Georgia Tech's Fullstack Web Development Bootcamp. I am from Clearwater, FL and currently reside in St. Petersburg, FL. I am interested in learning more in the fie</p>
+            
         </div>
    </div>
 
-    <!-- Work container -->
-    <!-- Add images -->
-    <!--Added links that I had available(This is homework assigment 2 so not many)-->
-    <!--Project3-6 placeholders for future projects-->
+    <!-- Portfolio container -->
+    <!-- Added images -->
+    <!--Added links to title and picture-->
+    <!---->
     <div id="work" class="workprojects">
-        <h2>Work</h2>
-        <div>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 1 Stock Photo.jpg" alt="Project1" class="responsive">
-                <div>
-                    <h3><a href="https://github.com/kge123/marketing-agency-refactoring">Marketing Agency Refactoring</a></h3>
-                </div>
-            </a>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 2 Stock Photo.jpg" alt="Project2" class="responsive">
-                <div>
-                    <h3><a href="https://github.com/kge123/advanced-css-portfolio">CSS Portfolio Project</a></h3>
-                </div>
-            </a>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 3 Stock Photo.jpg" alt="Project3" class="responsive">
-                <div>
-                    <h3><a href="Project 3">Project 3</a></h3>
-                </div>
-            </a>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 4 Stock Photo.jpg" alt="Project4" class="responsive">
-                <div>
-                    <h3><a href="Project 4">Project 4</a></h3>
-                </div>
-            </a>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 5 Stock Photo.jpg" alt="Project5" class="responsive">
-                <div>
-                    <h3><a href="Project 5">Project 5</a></h3>
-                </div>
-            </a>
-            <a href="#" class="portfolioprojects">
-                <img src="./images/Project 6 Stock Photo.jpg" alt="Project6" class="responsive">
-                <div>
-                    <h3><a href="Project 6">Project 6</a></h3>
-                </div>
-            </a>
-        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href="https://tranquil-everglades-59089.herokuapp.com/" class="portfolioprojects">
+                    <img src="./images/CryptoDashboard.png"  alt="Project1" class="responsive">
+                </a>
+              </div>
+              <div class="col">
+                <h3><a href="https://tranquil-everglades-59089.herokuapp.com/">Crypto Dashboard</a></h3>
+                <br>
+                The Crypto Dashboard was a project I worked on with my fellow partners. With it you see updated pricing and more on some of the most popular crypto. It also features a Crypto Encyclopedia with hundreds of different coins and some information about them.
+              </div>
+            </div>
+        </div><br>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3><a href="https://djdyer.github.io/pokego-weather-companion">PokeGo Weather Companion</a></h3>
+                <br>
+                The PokeGo Weather Companion App was made for the fanatics of Pokemon Go! By entering your location you can find out what Pokemon are boosted in your area based on the current weather. This app is a must for Pokemon Go fans.  
+              </div>
+              <div class="col">
+                <a href="https://djdyer.github.io/pokego-weather-companion" class="portfolioprojects">
+                    <img src="./images/PokeGoMobile.png" alt="Project2" class="responsive">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href="https://rocky-mesa-83954.herokuapp.com/" class="portfolioprojects">
+                    <img src="./images/JustAnotherTextEditor.jpg" alt="Project3" class="responsive">
+                </a>
+              </div>
+              <div class="col">
+                <h3><a href="https://rocky-mesa-83954.herokuapp.com/">JATE</a></h3>
+                <br>
+                JATE or "Just Another Text Editor" is a PWA text editor that works both on and offline so givne any circumstance, you are always able to save your work. 
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                1 of 2
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
+            </div>
+          </div>
     </div>
     <!-- Move contact me container into main -->
-    <div id="contactme" class="contactMeme">
-        <h2>Contact Me</h2>
+    <footer id="contactme" class="contactMeme">
+        <h2></h2>
             <div>
-                <h4>727-773-7500</h4>
                 <h4>kgelmorejr@gmail.com</h4>
+            </div>
+            <div>
                 <h4><a href="https://github.com/kge123">Github</a></h4>
             </div>
-    </div>
+    </footer>
 </main>       
- <!-- Contact Me container -->
+ <!-- Bootstrap Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
