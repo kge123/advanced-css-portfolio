@@ -6,6 +6,10 @@ html {
     display: flexbox;
 }
 
+header {
+    color: ivory;
+}
+
 body {
     display: flexbox;
     color: midnightblue;
@@ -62,6 +66,11 @@ main section h2 {
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 2%;
+}
+
+div img {
+    width: 10%;
+    height: 10%;
 }
 
 @media screen and (max-width: 620px) {
