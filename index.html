@@ -13,71 +13,35 @@
     <link rel="stylesheet" href="style.css" />
     <title>Guy's Portfolio</title>
   </head>
-
+<!-- Header/navbar occupies top of page with no space-->
   <header>
-    <ul class="nav justify-content-center bg-light">
+    <ul class="nav justify-content-center bg-dark">
       <li class="nav-item">
-        <h1>
+        <h2>
           <a class="nav-link active" aria-current="page" href="#mainpage"
             >Guy's Portfolio</a
           >
-        </h1>
+        </h2>
       </li>
       <li class="nav-item">
-        <h1><a class="nav-link" href="https://github.com/kge123">GitHub</a></h1>
+        <h2><a class="nav-link" href="https://github.com/kge123">GitHub</a></h2>
       </li>
       <li class="nav-item">
-        <h1>
+        <h2>
           <a
             class="nav-link"
             href="https://www.linkedin.com/in/kevin-elmore-jr-731ba322a/"
             >LinkedIn</a
           >
-        </h1>
+        </h2>
       </li>
     </ul>
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Guy Elmore</a><span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/kge123">GitHub</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/kevin-elmore-jr-731ba322a/">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
-      </nav> -->
-    <!-- Need Logo/Name -->
-    <!-- <h1>Guy Elmore</h1> -->
-    <!-- Nav Bar with links -->
-    <!-- <nav> -->
-    <!-- About Me / Work / Contact links / Resume -->
-    <!-- <ul>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contactme">Contact Me</a>
-        </ul>
-    </nav> -->
   </header>
 
   <body>
-    <!-- Banner with text -->
-    <!-- <section class="banner">
-    <div>
-        <h2>Welcome to my Portfolio</h2>
-    </div>
-</section> -->
-
-    <!-- Main content container with About Me, Work, Contact Me -->
-    <!-- Created main section to separate section above -->
     <main>
       <!-- About Me container -->
-      <div class="p-5 text-center bg-light">
-        <h1 class="mb-3">About Me</h1>
+      <div class="p-5 text-center">
         <h4 class="mb-3">
           My name is Guy Elmore and I am currently a student for Georgia Tech's
           Fullstack Web Development Bootcamp. I am from Clearwater, FL and
@@ -87,19 +51,12 @@
           collaboration and hope you enjoy!
         </h4>
       </div>
-      <!-- <div id="about" class="section">
-       <h2>About Me</h2>
-        <div>
-            <p>My name is Guy Elmore and I am currently a student for Georgia Tech's Fullstack Web Development Bootcamp. I am from Clearwater, FL and currently reside in St. Petersburg, FL. I am interested in learning more in the field and eventually making a career change. A few of my hobbies include video games and basketball. Feel free to reach out for collaboration and hope you enjoy!</p>
-            
-        </div>
-   </div> -->
 
       <!-- Portfolio container -->
       <!-- Added images -->
       <!--Added links to title and picture-->
       <!---->
-      <div id="work" class="workprojects bg-light">
+      <div id="work" class="workprojects">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -110,7 +67,7 @@
                 <img
                   src="./images/CryptoDashboard.png"
                   alt="CryptoDash"
-                  class="responsive"
+                  class="responsive rounded"
                 />
               </a>
             </div>
@@ -153,7 +110,7 @@
                 <img
                   src="./images/PokeGoMobile.png"
                   alt="PokeGo"
-                  class="responsive"
+                  class="responsive rounded"
                 />
               </a>
             </div>
@@ -171,7 +128,7 @@
                 <img
                   src="./images/JustAnotherTextEditor.jpg"
                   alt="JATE"
-                  class="responsive"
+                  class="responsive rounded"
                 />
               </a>
             </div>
@@ -197,10 +154,13 @@
                   >Note Jotter</a
                 >
               </h3>
-              1 of 2
+              Note Jotter is an app that allows you to create, save and delete
+              notes easily so you can stay organized and not forget that
+              important event coming up or just retaining any wanted notes to
+              yourself.
             </div>
             <div class="col">
-                <br>
+              <br />
               <a
                 href="https://pacific-crag-86545.herokuapp.com/"
                 class="portfolioprojects"
@@ -208,7 +168,7 @@
                 <img
                   src="./images/NoteTaker.jpg"
                   alt="NoteTaker"
-                  class="responsive"
+                  class="responsive rounded"
                 />
               </a>
             </div>
@@ -216,8 +176,8 @@
         </div>
       </div>
     </main>
-
-    <footer id="contactme" class="contactMeme bg-light">
+    <!--footer includes github and email link-->
+    <footer id="contactme" class="contactMeme">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a
